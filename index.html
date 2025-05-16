@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <form id="formID">
+        <div id="container">
+            <h1 id="heading">Registration Form</h1>
+            <div class="field-p">
+                <label for="f-name">First Name:</label>
+                <input type="text" name="f-name" id="f-name" placeholder="First Name">
+                <p class="red-text" id="f-name-war">First name must be 1 to 20 characters long.</p>
+            </div>
+            <div class="field-p">
+                <label for="l-name">Last Name:</label>
+                <input type="text" name="l-name" id="l-name" placeholder="Last Name">
+                <p class="red-text" id="l-name-war">First name must be 1 to 20 characters long.</p>
+            </div>
+            <div class="field-p">
+                <label for="email">Email ID:</label>
+                <input type="email" name="email" id="email" placeholder="Email ID">
+                <p class="red-text" id="email-war">Enter valid Email</p>
+            </div>
+            <div class="field-p">
+                <label for="num">Mobile Number:</label>
+                <input type="text" name="num" id="num" placeholder="Mobile Number">
+                <p class="red-text" id="num-war">Enter valid Mobile Number</p>
+            </div>
+            <div class="field-p">
+                <label for="n-pass">Create Password:</label>
+                <input type="password" name = "n-pass" id="n-pass" placeholder="Create New Password">
+                <p class="red-text" id="n-pass-war">Must be a combination of Alphabets, Numbers and Special Characters</p>
+            </div>
+            <div class="field-p">
+                <label for="c-pass">Confirm Password:</label>
+                <input type="password" name = "c-pass" id="c-pass" placeholder="Confirm New Password">
+                <p class="red-text" id="c-pass-war">Password does not match</p>
+            </div>
+            <div class="field-p">
+                <button type="reset" name="reset" id="reset">Reset</button>
+                <button type="submit" id="submit">Submit</button>
+            </div>
+        </div>
+    </form>
+    <table id="table">
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Email</th>
+        <th>Mobile</th>
+        <th>Password</th>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
